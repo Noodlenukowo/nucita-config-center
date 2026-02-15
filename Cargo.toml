@@ -1,6 +1,8 @@
 [package]
 name = "nucita-config-center"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
+relm4 = { version = "0.9", features = ["libadwaita"] }
+adw = { package = "libadwaita", version = "0.7" }
